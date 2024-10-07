@@ -17,8 +17,24 @@
   background-color: #fff;
   width: 100%;
   z-index: 1;
-  position: fixed;
+ position: fixed;
 }
+
+.dropdown-menu{
+  display: none;
+  z-index: 1;
+  color: #1C2B33;
+  top: 85px;
+  width: 100%;
+  height: 50vh;
+  background-color: #fff;
+  position: absolute;
+}
+
+.navbar:hover .dropdown-menu{
+  display: flex;
+}
+
 
 .navbar-left {
   display: flex;
@@ -34,6 +50,7 @@
   justify-content: center;
   padding-right: 30px;
   column-gap: 40px;
+  
 }
 
 .hemenbasla {
